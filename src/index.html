@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Property Marketplace</title>
+
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://ajax.googleapis.com https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://animalso.com https://placehold.co; font-src 'self' data: https://fonts.gstatic.com https://fonts.googleapis.com https://cdn.jsdelivr.net; connect-src 'self' ws://localhost:8545 http://localhost:7545 http://127.0.0.1:7545;">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      /* --- Glassmorphism Dark Theme ---
+       * This effect relies on a blurred, semi-transparent background.
+       */
+
+      /* 1. Define an animated gradient for the background to make the blur effect dynamic */
+      @keyframes moveGradient {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+      }
+
+      body {
+        /* Use a multi-color gradient for a rich background */
+        background: linear-gradient(-45deg, #0d1b2a, #415a77, #1b263b, #003049);
+        background-size: 400% 400%;
+        animation: moveGradient 15s ease infinite;
+        color: #e0e0e0; /* Off-white text for readability */
+        height: 100%;
+      }
+
+      .text-center {
+        color: #FFFFFF; /* Bright white for the main heading */
+        font-weight: 600;
+        text-shadow: 0 0 10px rgba(0, 229, 255, 0.5); /* Add a subtle cyan glow */
+      }
+
+      hr {
+        border-top: 1px solid rgba(255, 255, 255, 0.2); /* Semi-transparent border */
+      }
+
+      .panel-property {
+        min-height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        /* --- CORE GLASS EFFECT --- */
+        /* 2. Set a semi-transparent background color */
+        background: rgba(30, 30, 40, 0.45);
+        /* 3. Apply the blur effect to whatever is behind the element */
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px); /* For Safari support */
+        /* 4. Add a subtle border to define the edges of the glass */
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        /* ----------------------- */
+        
+        border-radius: 12px; /* Smoother, more modern corners */
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); /* Deeper shadow for depth */
+        transition: transform 0.3s ease;
+      }
+
+      .panel-property:hover {
+        transform: translateY(-5px); /* Lift card on hover */
+      }
+
+      .panel-property .panel-heading {
+        background-color: transparent; /* Heading should be part of the glass pane */
+        border-bottom: 1px solid rgba(255, 255, 255, 0.18); /* Match the main border style */
+      }
+
+      .panel-property .panel-title {
+        color: #FFFFFF; /* Bright white title */
+        font-weight: 500;
+      }
+
+      .panel-property .panel-body {
+        text-align: center;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: transparent; /* Body should also be part of the glass pane */
+      }
+
+      .panel-property img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        margin-bottom: 15px;
+        border-radius: 8px; /* Slightly rounded corners for images inside the card */
+      }
+
+      .panel-property strong {
+        color: #FFFFFF; /* Bright white for labels */
+      }
+
+      .panel-property .btn-buy {
+        margin-top: auto;
+        background-color: #00e5ff; /* A solid, vibrant button stands out against the glass */
+        color: #1a1a1a; /* Dark text for high contrast on the button */
+        border: none;
+        font-weight: bold;
+        border-radius: 6px;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+      }
+
+      .panel-property .btn-buy:hover {
+        background-color: #00b8d4; /* Darker accent on hover */
+        transform: scale(1.05); /* Slightly enlarge button on hover */
+      }
+    </style>
+
+    </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-8 col-sm-push-2">
+          <h1 class="text-center">Property Marketplace</h1>
+          <hr/>
+          <br/>
+        </div>
+      </div>
+
+      <div id="propertiesRow" class="row">
+        <!-- Properties will be injected here by app.js -->
+        </div>
+    </div>
+
+   <div id="propertyTemplate" style="display: none;">
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="panel panel-default panel-property">
+          <div class="panel-heading">
+            <h3 class="panel-title">Luxury Villa</h3>
+          </div>
+          <div class="panel-body">
+            <!-- Updated placeholder to match the dark theme -->
+            <img alt="140x140" data-src="holder.js/140x140" class="img-rounded img-center" src="https://placehold.co/400x300/1b263b/e0e0e0?text=Property"> <br/><br/>
+            <strong>Address: </strong><span class="property-address">123 Main St</span><br/>
+            <strong>Bedrooms: </strong><span class="property-bedrooms">4</span><br/>
+            <strong>Bathrooms: </strong><span class="property-bathrooms">3</span><br/>
+            <strong>Area: </strong><span class="property-area">2500 sqft</span><br/>
+            <strong>Price: </strong><span class="property-price">2 ETH</span><br/><br/>
+            <button class="btn btn-default btn-buy" type="button" data-id="0">Buy Property</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.7.0/dist/web3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@truffle/contract@4.3.34/dist/truffle-contract.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

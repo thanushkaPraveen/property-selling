@@ -1,0 +1,162 @@
+[
+  {
+    "id": 0,
+    "name": "Modern City Loft",
+    "picture": "images/0.jpeg",
+    "address": "101 10 St, Metropolis",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area": "750 sqft",
+    "price": 2.0
+  },
+  {
+    "id": 1,
+    "name": "Cozy Suburban Home",
+    "picture": "images/1.jpeg",
+    "address": "456 Oak Ave",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area": "1800 sqft",
+    "price": 1.0
+  },
+  {
+    "id": 2,
+    "name": "Luxury Downtown Condo",
+    "picture": "images/2.jpeg",
+    "address": "789 Sky High, City Center",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area": "1200 sqft",
+    "price": 3.0
+  },
+  {
+    "id": 3,
+    "name": "Quaint Countryside Cottage",
+    "picture": "images/3.jpeg",
+    "address": "123 Rural Rd, Whis Pines",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "area": "1000 sqft",
+    "price": 1.5
+  },
+  {
+    "id": 4,
+    "name": "Spacious Family Villa",
+    "picture": "images/4.jpeg",
+    "address": "909 Blvd, Elite Estates",
+    "bedrooms": 5,
+    "bathrooms": 4,
+    "area": "3500 sqft",
+    "price": 4.0
+  },
+  {
+    "id": 5,
+    "name": "Beachfront Bungalow",
+    "picture": "images/5.jpeg",
+    "address": "22 Oce Dr, Sndy Shores",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area": "1500 sqft",
+    "price": 2.5
+  },
+  {
+    "id": 6,
+    "name": "Mountain Retreat Cabin",
+    "picture": "images/6.jpeg",
+    "address": "33 Forest Ln, High Peaks",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "area": "900 sqft",
+    "price": 0.8
+  },
+  {
+    "id": 7,
+    "name": "Urban Townhouse",
+    "picture": "images/7.jpeg",
+    "address": "55 Metro St, Downtown",
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "area": "1600 sqft",
+    "price": 2.2
+  },
+  {
+    "id": 8,
+    "name": "Riverside Apartment",
+    "picture": "images/8.jpeg",
+    "address": "88 Riverwalk, Waterside",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area": "650 sqft",
+    "price": 1.2
+  },
+  {
+    "id": 9,
+    "name": "Historic District Rowhouse",
+    "picture": "images/9.jpg",
+    "address": "77 Town Rd, Heritage City",
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "area": "2000 sqft",
+    "price": 3.8
+  },
+  {
+    "id": 10,
+    "name": "Compact Studio Flat",
+    "picture": "images/10.jpg",
+    "address": "202 Tiny Ln, Microville",
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "area": "400 sqft",
+    "price": 0.5
+  },
+  {
+    "id": 11,
+    "name": "Lakefront Estate",
+    "picture": "images/11.jpg",
+    "address": "111 Lake View, Serene Waters",
+    "bedrooms": 6,
+    "bathrooms": 5,
+    "area": "5000 sqft",
+    "price": 5.0
+  },
+  {
+    "id": 12,
+    "name": "Artist's Loft",
+    "picture": "images/12.jpg",
+    "address": "33 Creative St, Arts District",
+    "bedrooms": 1,
+    "bathrooms": 1.5,
+    "area": "900 sqft",
+    "price": 1.7
+  },
+  {
+    "id": 13,
+    "name": "Sustainable Eco-Home",
+    "picture": "images/13.jpg",
+    "address": "44 Green Patch, Harmony Fields",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area": "1600 sqft",
+    "price": 2.3
+  },
+  {
+    "id": 14,
+    "name": "Renovated Farmhouse",
+    "picture": "images/14.jpg",
+    "address": "66 Old Barn Rd, Countryside",
+    "bedrooms": 4,
+    "bathrooms": 2.5,
+    "area": "2200 sqft",
+    "price": 2.8
+  },
+  {
+    "id": 15,
+    "name": "Penthouse with Skyline View",
+    "picture": "images/15.jpg",
+    "address": "99 Zenith Tower, High Rise City",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area": "2000 sqft",
+    "price": 4.5
+  }
+]
