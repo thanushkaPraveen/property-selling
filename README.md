@@ -154,7 +154,7 @@ npm run dev
 ## 👨‍💻 Author
 
 **Thanushka Wickramarachchi**  
-[GitHub](https://github.com/thanushkaPraveen) | [LinkedIn](https://www.linkedin.com/in/thanushka-wickramarachchi)
+[GitHub](https://github.com/thanushkaPraveen) | [LinkedIn](https://www.linkedin.com/in/thanushkawickramarachchi)
 
 ---
 
