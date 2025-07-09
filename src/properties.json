@@ -47,7 +47,7 @@
     "bedrooms": 5,
     "bathrooms": 4,
     "area": "3500 sqft",
-    "price": 4.0
+    "price": 2.2
   },
   {
     "id": 5,
@@ -57,7 +57,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "area": "1500 sqft",
-    "price": 2.5
+    "price": 1.2
   },
   {
     "id": 6,
@@ -87,7 +87,7 @@
     "bedrooms": 1,
     "bathrooms": 1,
     "area": "650 sqft",
-    "price": 1.2
+    "price": 1.8
   },
   {
     "id": 9,
@@ -117,7 +117,7 @@
     "bedrooms": 6,
     "bathrooms": 5,
     "area": "5000 sqft",
-    "price": 5.0
+    "price": 3.5
   },
   {
     "id": 12,
@@ -127,7 +127,7 @@
     "bedrooms": 1,
     "bathrooms": 1.5,
     "area": "900 sqft",
-    "price": 1.7
+    "price": 1.1
   },
   {
     "id": 13,
@@ -157,6 +157,6 @@
     "bedrooms": 3,
     "bathrooms": 3,
     "area": "2000 sqft",
-    "price": 4.5
+    "price": 1.6
   }
 ]
