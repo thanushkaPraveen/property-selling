@@ -40,14 +40,14 @@ contract Property {
         propertyPrices[4] = 2.5 ether;
         propertyPrices[5] = 1.2 ether;
         propertyPrices[6] = 0.8 ether;
-        propertyPrices[7] = 4 ether;
+        propertyPrices[7] = 2.2 ether;
         propertyPrices[8] = 1.8 ether;
-        propertyPrices[9] = 2.2 ether;
+        propertyPrices[9] = 3.8 ether;
         propertyPrices[10] = 0.5 ether;
         propertyPrices[11] = 3.5 ether;
         propertyPrices[12] = 1.1 ether;
-        propertyPrices[13] = 2.8 ether;
-        propertyPrices[14] = 0.9 ether;
+        propertyPrices[13] = 2.3 ether;
+        propertyPrices[14] = 2.8 ether;
         propertyPrices[15] = 1.6 ether;
     }
 
